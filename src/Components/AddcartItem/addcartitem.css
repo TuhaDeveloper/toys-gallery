@@ -1,0 +1,30 @@
+.cart-item {
+    display: grid;
+    grid-template-columns: .5fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px 20px;
+
+    text-align: center;
+    background: rgb(248, 248, 248);
+    margin-top: 1rem;
+}
+
+.cart-item p {
+    margin-top: .4rem;
+}
+
+
+.cart-item img {
+    width: 50px;
+    margin: 0 auto;
+}
+
+.cart-item button {
+    width: 40px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    color: black;
+}
+
+.cart-item button:hover {
+    background: lightblue;
+}

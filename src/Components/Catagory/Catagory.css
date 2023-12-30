@@ -1,0 +1,15 @@
+.catagory h1 {
+    text-align: center;
+    margin: 1rem;
+}
+
+.allcatagory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.allcatagory a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,76 @@
+.cartItems {
+    margin: 1rem 5rem;
+    height: 80vh;
+}
+
+
+.cart-title {
+    display: grid;
+    grid-template-columns: .5fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.add-cart-product {
+    margin-bottom: 2rem;
+}
+
+.cart-footer {
+    margin-top: 5rem;
+    display: flex;
+}
+
+.cart-total {
+    width: 50%;
+}
+
+.cart-total h2 {
+    margin-bottom: 1rem;
+}
+
+.cart-total div {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem .5rem;
+    border-bottom: 1px solid lightgray;
+}
+
+
+.cart-total button {
+    width: 200px;
+    background-color: orangered;
+}
+
+.cart-total button:hover {
+    background-color: rgb(255, 51, 0);
+}
+
+.submit-pomocode {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+
+.pomodcode {
+    margin: .5rem;
+}
+
+.pomodcode input {
+    width: 300px;
+    height: 40px;
+    padding: .3rem .4rem;
+}
+
+.pomodcode button {
+    width: 100px;
+    height: 42px;
+    background: #000;
+}
+
+.pomodcode button:hover {
+    background: #141414;
+}

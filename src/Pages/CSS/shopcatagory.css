@@ -1,0 +1,39 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.banner img {
+    width: 42%;
+    height: 200px;
+}
+
+.short_index {
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.right_short {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    background-color: lightgray;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-bottom: .5rem;
+    cursor: pointer;
+}
+
+.category-product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.category-product a {
+    text-decoration: none;
+}

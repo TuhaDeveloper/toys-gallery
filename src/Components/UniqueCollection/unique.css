@@ -1,0 +1,16 @@
+.uniqueToys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.uniqueToys a {
+    text-decoration: none;
+    color: black;
+}
+
+.unique-collection h1 {
+    text-align: center;
+    margin: 1.3rem 0;
+}

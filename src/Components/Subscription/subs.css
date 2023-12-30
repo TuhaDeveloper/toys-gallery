@@ -1,0 +1,40 @@
+.subscription {
+    margin: 2rem 2rem 1rem;
+    justify-content: center;
+    display: flex;
+}
+
+.join {
+    background: linear-gradient(-45deg, rgb(110, 187, 231), rgb(250, 172, 54), white);
+    width: 80%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.join p {
+    font-size: 28px;
+}
+
+.join button {
+    border: none;
+    padding: 8px 16px;
+    background-color: rgb(255, 41, 41);
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: .5rem;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+}
+
+.join button a {
+    text-decoration: none;
+    color: white;
+}
+
+.join button:hover {
+    background-color: red;
+}

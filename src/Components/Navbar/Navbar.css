@@ -1,0 +1,131 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+
+.logo-text {
+    font-weight: bold;
+}
+
+.search {
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -20px;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    padding: 2px 8px;
+}
+
+form {
+    display: flex;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links a:focus {
+    color: orangered;
+}
+
+.nav-links a:hover {
+    color: black
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+}
+
+.right-side .login-btn {
+    padding: 6px 16px;
+    margin-right: 20px;
+    border-radius: 15px;
+    background-color: #007bff;
+    background-color: transparent;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.login-btn a {
+    color: black;
+}
+
+
+.login-btn:hover {
+    background-color: #2a89ee;
+    color: white;
+
+}
+
+.cart-icon img {
+    width: 30px;
+    /* Adjust according to your cart icon size */
+    height: 30px;
+    /* Adjust according to your cart icon size */
+}
+
+.count {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    position: relative;
+    top: -18px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+}

@@ -1,0 +1,66 @@
+/* Style for the home section */
+.home {
+    background: linear-gradient(45deg, white, #fad0c4, rgb(211, 178, 230));
+    display: flex;
+    margin: 0 auto;
+    background-color: #fff;
+    height: 90vh;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Left side content styles */
+.left-div {
+    flex: 1;
+    padding: 40px;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-div p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.left-div h1 {
+    font-size: 76px;
+    color: #333;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.left-div a {
+    width: 35%;
+    /* display: block; */
+    padding: 12px 24px;
+    /* background-color: rgb(253, 118, 141); */
+    background-color: rgb(255, 81, 81);
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.left-div a:hover {
+    background-color: #ec8f9f;
+}
+
+/* Right side image styles */
+.right-div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.right-div img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
